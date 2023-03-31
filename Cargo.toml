@@ -1,0 +1,27 @@
+[package]
+name = "demo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console_error_panic_hook="0.1.7"
+dioxus = "0.3.2"
+dioxus-router = "0.3.0"
+axum = "0.6.12"
+#dioxus = { version = "0.3.2", features = ["html"] }
+#dioxus-ssr = "0.3.0"
+dioxus-web = "0.3.1"
+im-rc = "15.1.0"
+log = "0.4.17"
+reqwest = "0.11.15"
+wasm-bindgen = "0.2.84"
+wasm-logger = "0.2.0"
+
+tokio = { version = "1.26.0", features = ["full"] }
+dioxus-desktop = "0.3.0"
+dioxus-html = "0.3.1"
+futures-util = "0.3.28"
+dioxus-core = "0.3.2"
+slab = "0.4.8"
